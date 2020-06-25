@@ -151,7 +151,11 @@ namespace StudentManage
                 }
             }
         }
-
+        /// <summary>
+        /// 关闭
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void BtnClose_Click(object sender, EventArgs e)
         {
             this.Close();
